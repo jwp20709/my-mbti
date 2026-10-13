@@ -390,8 +390,14 @@
     <section class="panel result" id="result" aria-live="polite">
       <div class="result-top">
         <span class="type-badge" id="typeBadge">나의 MBTI</span>
-        <div class="pokemon-emoji" id="pokemonEmoji" role="img"
-          aria-label="포켓몬을 나타내는 이모지">⚡</div>
+        <div class="pokemon-image-wrap">
+          <img
+            class="pokemon-image"
+            id="pokemonImage"
+            src="https://img.pokemondb.net/artwork/large/gardevoir.jpg"
+            alt="가디안 공식 일러스트"
+          >
+        </div>
         <h2 class="pokemon-name" id="pokemonName">피카츄</h2>
         <p class="pokemon-tagline" id="pokemonTagline">
           나와 꼭 닮은 특별한 파트너!
